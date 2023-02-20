@@ -5,7 +5,7 @@ export default function App() {
   const [nums, setNums] = useState([]);
   const [bools, setBools] = useState([[false, 0], [false, 1], [false, 2], [false, 3], [false, 4], [false, 5], [false, 6], [false, 7], [false, 8], [false, 9]]);
   useEffect(() => {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 10; i++) {
       setNums(prev => [...prev, Math.ceil(Math.random() * 6)]);
     }
   }, []);
