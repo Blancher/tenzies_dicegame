@@ -107,7 +107,7 @@ h2:active {
   #dies {
     grid-template-rows: repeat(5, 50px);
     grid-template-columns: repeat(2, 50px);
-    top: 70%;
+    top: 80%;
     left: 49%;
   }
 
@@ -118,6 +118,6 @@ h2:active {
   }
 
   h2 {
-    top: 90%;
+    top: 95%;
   }
 }
